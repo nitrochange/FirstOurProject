@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Matrix</title>
+    <style>
+        @font-face {
+            font-family: AmaticSC-Bold; /* Гарнитура шрифта */
+            src: url(AmaticSC-Bold.ttf); /* Путь к файлу со шрифтом */
+        }
+
+        p {
+            Font-Size: 30px;
+            Font-Family: "AmaticSC-Bold";
+            text-align: "justify";
+        }
+
+        body {
+            background-color: #fff5b7;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <b> Definition: </b> <br>
+        Two matrices A and B are equal if all their corresponding entries are equal:<br>
+        A = B <=> a<sub>i,j</sub>=b<sub>i,j</sub> for all i, j </p>
+    <p>
+        <b> Definition: </b> <br>
+        The m × n matrix whose entries are all 0 is denoted 0<sub>m,n</sub> (or, more often, justby 0 if the dimensions are obvious from context).
+        It’s called the zero matrix.</p>
+    <img src="ZeroMatrix.png" width="100%">
+    <p>
+        <b>Definition:</b> <br>
+        If the matrices A and B have the same size, then their sum is the matrix A+B defined by<br>
+        (A+B)<sub>i,j</sub>=a<sub>i,j</sub>+b<sub>i,j</sub> <br>
+        Their difference is the matrix A−B defined by: <br>
+        (A-B)<sub>i,j</sub>=a<sub>i,j</sub>-b<sub>i,j</sub>
+    </p>
+    <p>
+        <b> Definition:</b>  <br>
+        A matrix A can be multiplied by a scalar c to obtain the matrix cA, where <br>
+        (cA)<sub>i,j</sub> = c(a<sub>i,j</sub>). <br>
+        This is called scalar multiplication. We just multiply each entry of A by c.
+    </p>
+    <p>
+        <b> Definition: </b> <br>
+        Two matrices A and B are equal if all their corresponding entries are equal:<br>
+        A = B <=> a<sub>i,j</sub>=b<sub>i,j</sub> for all i, j
+    </p>
+    <p>
+        <b> Definition: </b> <br>
+        The m × n matrix whose entries are all 0 is denoted 0mn (or, more often, justby 0 if the dimensions are obvious from context).
+        It’s called the zero matrix.
+    </p>
+</body>
+</html>
